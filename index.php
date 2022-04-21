@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/> <!-- Para que interprete tildes, ñ y demás -->
+    <meta name="description" content="Coca-Cola es la droga" /> <!--Descripción de la web, opcional-->
+    <meta name="keywords" content="bebida, gaseosa, cola" /> <!--Palabras clave para el buscador, opcional-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- para la visualización en celulares -->
+    <title>Inicio - Coca Cola</title> <!--Título de la página-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" /> <!--ícono de la web, se encuentra al lado del título-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/normalize.css" /> <!--referencia al archivo de estilos-->
+    <link rel="stylesheet" href="assets/css/style.css" /> <!--referencia al archivo de estilos-->
+    <script src="https://kit.fontawesome.com/42075106bf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container"> <!--bloque con clase container-->
+            <a href="#">
+                <img src="assets/img/logo.svg" class="logo" />
+            </a> <!---para enlaces-->
+            <nav> <!--para enlaces de navegación-->
+                <a href="#inicio">Inicio</a> <!--# es para id-->
+                <a href="#nosotros">Nosotros</a>
+                <a href="#servicios">Servicios</a> 
+                <a href="#galeria">Galería</a> 
+                <a href="#contactenos">Contáctenos</a> 
+            </nav>
+            <a href="#" class="hamb"><i class="fa-solid fa-bars"></i></a>
+        </div>        
+    </header>
+    <main>
+        <section id="inicio">
+            <img src="assets/img/bannerprincipal.jpg" />
+            <div class="bloque-inicio">
+                <h1>Bienvenidos a Coca Cola</h1>
+                <p>
+                    Acompañamos cada momento de tu día.
+                </p>
+                <a href="#nosotros" class="boton boton-rojo">Ver más</a>
+            </div>
+        </section>
+        <section id="nosotros" class="seccion">
+            <div class="container">
+                <p>
+                En mayo de 1866, John Pemberton sirvió en Atlanta la primera Coca-Cola. Desde esa bebida icónica hasta hoy hemos recorrido un largo camino: el que nos llevó a convertirnos en una Compañía Integral de Bebidas. Somos Coca-Cola y mucho más…
+                </p>
+            </div>
+        </section>
+        <section id="servicios" class="seccion">
+            <div class="container">
+                <div class="row">
+                    <div class="columna columna-33 columna-mobile-100">
+                        <div class="bloque-servicio">
+                            <div class="bloque-img-servicio cuadrado-perfecto">
+                                <img src="assets/img/servicio1.jpg" />
+                            </div>
+                            <div class="bloque-contenido-servicio">
+                                <h3>Sustentabilidad</h3>
+                                <p>
+                                    Nuestro crecimiento es importante, pero no de cualquier manera. La gente importa. Nuestro planeta importa. Hacemos negocios de la manera correcta, siguiendo nuestros valores y trabajando para encontrar caminos que nos beneficien a todos. Por eso nos involucramos con el cuidado del agua y fomentar el reciclado para un mundo sin residuos.
+                                </p>
+                                <a href="https://www.cocacoladeargentina.com.ar/sustentabilidad" target="_blank" class="boton boton-blanco">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columna columna-33 columna-mobile-100">
+                        <div class="bloque-servicio">
+                            <div class="bloque-img-servicio cuadrado-perfecto">
+                                <img src="assets/img/servicio2.jpg" />
+                            </div>
+                            <div class="bloque-contenido-servicio">
+                                <h3>ProgramON</h3>
+                                <p>
+                                    Después de sus exitosas ediciones de 2021, este año ProgramON se abre paso con Testing: se trata de nuevo curso de capacitación virtual desarrollado por Coca-Cola Argentina y Chicos.net que busca aportar las herramientas necesarias a 300 jóvenes que quieran vincularse con el pujante rubro de las nuevas tecnologías.
+                                </p>
+                                <a href="https://www.cocacoladeargentina.com.ar/novedades/bases-y-condiciones-programon-emprendidos" target="_blank" class="boton boton-blanco">Ver más</a>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="columna columna-33 columna-mobile-100">
+                        <div class="bloque-servicio">
+                            <div class="bloque-img-servicio cuadrado-perfecto">
+                                <img src="assets/img/servicio3.jpg" />
+                            </div>
+                            <div class="bloque-contenido-servicio">
+                                <h3>Nuestra Compañía</h3>
+                                <p>
+                                En 1942 la Compañía abrió su primera planta en Argentina. Desde entonces, el Sistema Coca-Cola -integrado por Coca-Cola y sus socios embotelladores- trabaja con la misma pasión y compromiso. Estamos presentes en el día a día de los bares históricos, de los quioscos de barrio, de las despensas de pueblo y hasta del cocacolero al que llamás en la cancha y en la playa. 
+                                </p>
+                                <a href="https://www.cocacoladeargentina.com.ar/nuestra-compania" target="_blank" class="boton boton-blanco">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="galeria">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="columna-33 columna-mobile-50">
+                        <div class="cuadrado-perfecto">
+                            <img src="assets/img/servicio1.jpg" />
+                            <h4>Coca-Cola</h4>
+                        </div>
+                    </div>
+                    <div class="columna-33 columna-mobile-50">
+                        <div class="cuadrado-perfecto">
+                            <img src="assets/img/DelValle.jpg" />
+                            <h4>Del Valle</h4>
+                        </div>
+                    </div>
+                    <div class="columna-33 columna-mobile-50">
+                        <div class="cuadrado-perfecto">
+                            <img src="assets/img/fanta.jpg" />
+                            <h4>Fanta</h4>
+                        </div>
+                    </div>
+                    <div class="columna-33 columna-mobile-50">
+                        <div class="cuadrado-perfecto">
+                            <img src="assets/img/sprite.jpg" />
+                            <h4>Sprite</h4>
+                        </div>
+                    </div>
+                    <div class="columna-33 columna-mobile-50">
+                        <div class="cuadrado-perfecto">
+                            <img src="assets/img/ades.jpg" />
+                            <h4>Ades</h4>
+                        </div>
+                    </div>
+                    <div class="columna-33 columna-mobile-50">
+                        <div class="cuadrado-perfecto">
+                            <img src="assets/img/power.jpg" />
+                            <h4>Powerade</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contactenos" class="seccion">
+            <iframe width="520" height="400" frameborder="0"src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Ruta%208%20Km%2021.600,%20B1657%20Loma%20Hermosa,%20Provincia%20de%20Buenos%20Aires%20+(Coca%20Cola)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="columna columna-41 columna-mobile-100 empujar-58 empujar-mobile-0 sinpadding-mobile">
+                        <form action="index.php" method="post">
+                            <div class="form-block">
+                                <input type="text" name="nombre" class="form-control" placeholder="Nombre" />
+                            </div>
+                            <div class="form-block">
+                                <input type="email" name="email" class="form-control" placeholder="Email"/>
+                            </div>
+                            <div class="form-block">
+                                <textarea name="mensaje" placeholder="Mensaje"></textarea>
+                            </div>
+                            <div class="form-block bloque-ultimo">
+                                <input type="submit" class="boton boton-negro" value="Enviar">
+                            </div>
+                            <?php
+                                if($_SERVER["REQUEST_METHOD"] == "POST"){
+                                    $nombre = $_POST["nombre"];
+                                    $email = $_POST["email"];
+                                    $mensaje = $_POST["mensaje"];
+
+                                    if(isset($nombre)){
+                                        if(isset($email)){
+                                            if(isset($mensaje)){
+                                                $para = "contacto.1.php@gmail.com";
+                                                $asunto = "Contacto prueba";
+                                                $cuerpo = $nombre."\n".$email."\n".$mensaje;
+                                                $adicional = "From: noreply@coca.com";
+
+                                                mail($para, $asunto, $cuerpo, $adicional);
+                                            ?>
+                                                <p>Envio exitoso</p>
+                                            <?php
+                                            }
+                                        }
+                                    }
+                                }
+                            ?>                             
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="columna columna-25 columna-mobile-100">
+                    <img src="assets/img/logo-blanco.png" class="logo-footer"/>
+                    <p>
+                    THE COCA-COLA COMPANY TERMS OF USE <br>                    
+                    E-mail us at: https://us.coca-cola.com/support/contact-us/message/. <br>
+                    Call at +1 800 520 2653
+                    </p>
+                </div>
+                <div class="columna columna-25 columna-mobile-100">
+                    <h3>
+                        Temas relacionados
+                    </h3>
+                    <ul>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#galeria">Galeria</a></li>
+                    </ul>
+                </div>
+                <div class="columna columna-25 columna-mobile-100">
+                    <h3>
+                        Datos de contacto
+                    </h3>
+                    <ul>
+                        <li>sebastian.gines@gmail.com</li>
+                        <li>+5491122334455</li>
+                        <li>Villa Bosch - San Martin<br> Buenos Aires - Argentina</li>
+                    </ul>
+                </div>
+                <div class="columna columna-25 columna-mobile-100">
+                    <h3>
+                        Redes Sociales
+                    </h3>
+                    <ul class="redes">
+                        <li>
+                            <a href="https://es-la.facebook.com/cocacolaar/" target="_blank">
+                                <i class="fa-brands fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/CocaColaAr" target="_blank">
+                                <i class="fa-brands fa-twitter-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/cocacolaar" target="_blank">
+                                <i class="fa-brands fa-instagram-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/user/CocaColaCo" target="_blank">
+                            <i class="fa-brands fa-youtube-square"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="barra-footer">
+            &copy; Derechos Reservados - 2022
+        </div>
+    </footer>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/funciones.js"></script>
+</body>
+</html>
